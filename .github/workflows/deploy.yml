@@ -1,32 +1,29 @@
-name: deploy-docusaurus
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - master
+    # Review gh actions docs if you want to further define triggers, paths, etc
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
+    name: Build Docusaurus
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Check out repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          path: 'docusaurus'
           fetch-depth: 0
-          ref: ${{github.event.pull_request.head.ref}}
-          repository: ${{github.event.pull_request.head.repo.full_name}}
-      # Node is required for npm
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 19
-      # Install and build the Docusaurus website
-      - name: Install & Build Docusaurus
-        run: |
-          npm install
-          npm run build
+          cache: npm
+
+      - name: Install dependencies
+        run: npm i
+      - name: Build website
+        run: npm run build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
