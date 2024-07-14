@@ -4,24 +4,30 @@ on:
   push:
     branches: [main]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+permissions:
+  checks: write
+  contents: write
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  publish:
+  build-docusaurus:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          path: 'docusaurus'
+          fetch-depth: 0
+          ref: ${{github.event.pull_request.head.ref}}
+          repository: ${{github.event.pull_request.head.repo.full_name}}        
       # Node is required for npm
       - name: Set up Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 19       
       # Install and build the Docusaurus website
-      - name: Build Docusaurus website
+      - name: Install & Build Docusaurus 
         run: |
           npm install --save @docusaurus/plugin-pwa
           npm install --save @docusaurus/plugin-client-redirects
@@ -31,7 +37,7 @@ jobs:
           npm run build
       - name: Deploy to GitHub Pages
         if: success()
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: gh-pages
           build_dir: /
