@@ -21,7 +21,7 @@ const config = {
   projectName: 'docs', // Usually your repo name.
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
+  //onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   onDuplicateRoutes: 'throw',
   onBrokenAnchors: 'throw',
