@@ -23,6 +23,11 @@ jobs:
       # Install and build Docusaurus website
       - name: Build Docusaurus website
         run: |
+          npm install --save @docusaurus/plugin-pwa
+          npm install --save @docusaurus/plugin-client-redirects
+          npm install --save @docusaurus/docusaurus-lunr-search
+          npm install --save docusaurus-lunr-search
+          npm install --save prism-react-renderer
           npm install 
           npm run build
       - name: Deploy to GitHub Pages
