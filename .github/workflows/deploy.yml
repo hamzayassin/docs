@@ -1,8 +1,12 @@
 name: Deploy to GitHub Pages
 
-on:
+on: 
   push:
     branches: ["master", "main"]
+
+permissions:
+  checks: write
+  contents: write
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
