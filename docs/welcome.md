@@ -17,17 +17,17 @@ We cover a wide range of topics and regularly update our content to ensure you'r
 
 ## Gameserver
 
-Perfect and utilize the full extent of your game server. With our expertise, we take your gaming to a new level. Our detailed guides for over 50 different games and their extensions/modifications enable you to develop a deep understanding of configuring and managing your game servers.
+Perfect and utilize the full extent of your game server. With our expertise, we take your gaming to a new level. Our detailed guides for over 10 different games and their extensions/modifications enable you to develop a deep understanding of configuring and managing your game servers.
 
 <Cards>
     <Card title="Call of Duty (2003)" description="Placeholder" link="cod-firststeps-dashboard" image="https://fshost.me/assets/img/bg/cod.jpg"/>
     <Card title="Call of Duty 2" description="Placeholder" link="cod2-firststeps-dashboard" image="https://fshost.me/assets/img/bg/cod2.jpg"/>
-    <Card title="Call of Duty 4: Modern Warfare" description="Placeholder" link="cod4-firststeps-dashboard" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/cod4.jpg&blur=0&bri=10&con=0&w=500&h=300&fit=cover&a=entropy&maxage=90d"/>
-    <Card title="Call of Duty: United Offensive" description="Placeholder" link="coduo-firststeps-dashboard" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/coduo.jpg&blur=0&bri=10&con=0&w=500&h=300&fit=cover&a=entropy&maxage=90d"/>
-    <Card title="Call of Duty: World at War" description="Placeholder" link="codwaw-firststeps-dashboard" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/codwaw.jpg&amp;blur=0&amp;bri=10&amp;con=0&amp;w=500&amp;h=300&amp;fit=cover&amp;a=entropy&amp;maxage=90d"/>
+    <Card title="Call of Duty 4: Modern Warfare" description="Placeholder" link="cod4-firststeps-dashboard" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/cod4.jpg"/>
+    <Card title="Call of Duty: United Offensive" description="Placeholder" link="coduo-firststeps-dashboard" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/coduo.jpg"/>
+    <Card title="Call of Duty: World at War" description="Placeholder" link="codwaw-firststeps-dashboard" image="https://images.weserv.nl/?url=https://fshost.me/assets/img/bg/codwaw.jpg"/>
     <Card title="CS 1.6" description="Placeholder" link="cs16-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/10/header.jpg?t=1666823513"/>
     <Card title="CS:CZ" description="Placeholder" link="cscz-firststeps-dashboard" image="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/80/header.jpg?t=1715995767"/>
-    <Card title="CS:S" description="Placeholder" link="css-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg?t=1666823740"/>
+    <Card title="CS:Source" description="Placeholder" link="css-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg?t=1666823740"/>
     <Card title="CS2" description="Placeholder" link="cs2-firststeps-dashboard" image="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1698860631"/>
     <Card title="Half-Life: Deathmatch" description="Placeholder" link="hldm-firststeps-dashboard" image="https://fshost.me/assets/img/bg/hldm.jpg"/>
     <Card title="Medal of Honor: Allied Assault" description="Placeholder" link="mohaa-firststeps-dashboard" image="https://fshost.me/assets/img/bg/mohaa.jpg"/>
