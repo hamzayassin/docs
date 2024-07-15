@@ -128,7 +128,7 @@ const config = {
     [ 
       require.resolve('docusaurus-lunr-search'),
       {
-        languages: ['en', 'da'] // language codes
+        languages: ['en'] // language codes
       }
     ]
   ],
