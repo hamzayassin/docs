@@ -2,7 +2,7 @@
   "short_name": "FSH Docs",
   "name": "FSHOST Docs",
   "lang": "en-US",
-  "start_url": "/docs/firststeps-register/",
+  "start_url": "/docs/welcome/",
   "background_color": "#1b1b1d",
   "display": "standalone",
   "scope": "/docs/",
