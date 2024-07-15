@@ -28,6 +28,8 @@ const sidebars = {
       defaultStyle: true,
     },
     'welcome',
+    'faq',
+    'network-analysis',
     'firststeps-locations',
     {
       type: 'category',
@@ -72,6 +74,73 @@ const sidebars = {
       defaultStyle: true,
     },
     {
+      type: "category",
+      label: "Call of Duty 2",
+      items: [
+        {
+        },
+        "cod2-firststeps-dashboard"
+      ],
+    },
+    {
+      type: "category",
+      label: "Call of Duty 4: Modern Warfare",
+      items: [
+        {
+        },
+        "cod4-firststeps-dashboard"
+      ],
+    },
+    {
+      type: "category",
+      label: "Counter-Strike: 1.6",
+      items: [
+        {
+          type: "category",
+          label: "Administration",
+          items: [
+            "cs16-becomeadmin",
+          ]
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Counter-Strike: Source",
+      items: [
+        {
+        },
+        "css-firststeps-dashboard"
+      ],
+    },
+    {
+      type: "category",
+      label: "Counter-Strike: 2",
+      items: [
+        {
+        },
+        "cs2-firststeps-dashboard"
+      ],
+    },
+    {
+      type: "category",
+      label: "Half-Life: Deathmatch",
+      items: [
+        {
+        },
+        "hldm-firststeps-dashboard"
+      ],
+    },
+    {
+      type: "category",
+      label: "Team Fortress 2",
+      items: [
+        {
+        },
+        "tf2-firststeps-dashboard"
+      ],
+    },                
+    {
       type: 'html',
       className: 'sidebar-title',
       value: (() => {
@@ -83,11 +152,46 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS 1.6",
+      label: "COD",
+      items: [
+        "cod-firststeps-dashboard"
+      ],
+    },
+    {
+      type: "category",
+      label: "COD2",
+      items: [
+        "cod2-firststeps-dashboard"
+      ],
+    },
+    {
+      type: "category",
+      label: "COD4: MW",
+      items: [
+        "cod4-firststeps-dashboard"
+      ],
+    },        
+    {
+      type: "category",
+      label: "CS16",
       items: [
         "cs16-becomeadmin"
       ],
     },
+    {
+      type: "category",
+      label: "CSCZ",
+      items: [
+        "cscz-firststeps-dashboard"
+      ],
+    },
+    {
+      type: "category",
+      label: "CSS",
+      items: [
+        "css-firststeps-dashboard"
+      ],
+    },          
     {
       type: "category",
       label: "CS2",
