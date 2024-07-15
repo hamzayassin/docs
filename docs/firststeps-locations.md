@@ -25,7 +25,7 @@ As briefly mentioned in advance, we are continuously developing and expanding th
 
 ## Connection quality to the locations
 
-You are unsure which location is the best for you? That's no problem! We have developed a looking glass, which allows you to test the connection from you to the locations. This way you will get an overview of all ping results at a glance and you can choose the best location for you.
+You are unsure which location is the best for you? That's no problem! We have developed a looking glass, which allows you to test the connection from the locations to you. This way you will get an overview of all ping results at a glance and you can choose the best location for you.
 
 You can click on this link to try testing ping: [Looking Glass](https://fshost.me/lg) 
 
