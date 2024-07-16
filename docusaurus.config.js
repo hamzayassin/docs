@@ -42,7 +42,7 @@ const config = {
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: true,
+        debug: false,
         offlineModeActivationStrategies: [
           'appInstalled',
           'standalone',
@@ -52,7 +52,7 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/img/favicon-96x96.png',
+            href: '/img/fshost-logo.png',
           },
           {
             tagName: 'link',
@@ -77,18 +77,18 @@ const config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: '/img/srcDark.png',
+            href: '/img/fshost-logo.png',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: '/img/srcDark.png',
+            href: '/img/fshost-logo.png',
             color: '#18e888',
           },
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            content: '/img/srcDark.png',
+            content: '/img/fshost-logo.png',
           },
           {
             tagName: 'meta',
@@ -171,12 +171,26 @@ const config = {
           autoCollapseCategories: true,
         },
       },
+      announcementBar: {
+        id: 'announcement-bar',
+        content:
+        'Welcome to our new Docs/FAQ page!',
+        backgroundColor: '#3949AB',
+        textColor: '#FFFFFF',
+        isCloseable: false,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+          disableSwitch: true,
+          respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'FSHOST Docs',
         logo: {
           href: "/docs/welcome",
           alt: 'FSHOST',
-          src: 'img/favicon-96x96.png',
+          src: 'img/fshost-logo.png',
+          srcDark: 'img/fshost-logo.png'
         },
         items: [
           {
@@ -203,6 +217,7 @@ const config = {
           className: 'externalLink',
           value: (() => {
             switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+              case "da": return '<a href="https://fshost.me/pro/pricing/">Lej en spilserver</a>';
               default: return '<a href="https://fshost.me/pro/pricing/">Rent a gameserver</a>';
             }
           })(),
@@ -214,6 +229,7 @@ const config = {
  
           value: (() => {
             switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
+              case "da": return '<a href="https://fshost.me">Tilbage til FSHOST ⤾</a>'
               default: return '<a href="https://fshost.me/">Back to FSHOST ⤾</a>';
             }
           })(),
