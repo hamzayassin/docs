@@ -18,7 +18,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/welcome">
+            to="/">
             Open Docs
           </Link>
         </div>
@@ -42,7 +42,7 @@ export default function Home() {
 //   );
 // }
 
-return <Redirect to="docs/welcome" />;
+return <Redirect to="/" />;
 
 }
 
