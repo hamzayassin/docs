@@ -5,12 +5,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'FSHOST Docs',
+  title: 'FSHOST Help',
   tagline: 'FREE game server hosting for CS2, CoD4, CoD2, CS1.6, CSS, and more! We also offer paid game servers via Pro.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.fshost.me',
+  url: 'https://help.fshost.me',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -185,7 +185,7 @@ const config = {
           respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'FSHOST Docs',
+        title: 'FSHOST Help',
         logo: {
           href: "/docs/welcome",
           alt: 'FSHOST',
@@ -203,7 +203,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'gameserverSidebar',
             position: 'left',
-            label: 'Gameserver',
+            label: 'Server Help',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -217,8 +217,7 @@ const config = {
           className: 'externalLink',
           value: (() => {
             switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-              case "da": return '<a href="https://fshost.me/pro/pricing/">Lej en spilserver</a>';
-              default: return '<a href="https://fshost.me/pro/pricing/">Rent a gameserver</a>';
+              default: return '<a href="https://fshost.me/pro/pricing/">Rent Pro Server</a>';
             }
           })(),
         },
@@ -229,8 +228,7 @@ const config = {
  
           value: (() => {
             switch (process.env.DOCUSAURUS_CURRENT_LOCALE) {
-              case "da": return '<a href="https://fshost.me">Tilbage til FSHOST ⤾</a>'
-              default: return '<a href="https://fshost.me/">Back to FSHOST ⤾</a>';
+              default: return '<a href="https://fshost.me/">Back to Website ⤾</a>';
             }
           })(),
         },
@@ -247,7 +245,7 @@ const config = {
           title: 'Rent a Server',
           items: [
             {
-              label: 'Rent a Gameserver',
+              label: 'Rent a Game Server',
               href: 'https://fshost.me/pro/pricing',
             },
             {
