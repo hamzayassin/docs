@@ -2,7 +2,6 @@
 id: welcome
 title: Welcome to the FSHOST Documentation!
 sidebar_label: Welcome!
-slug: /
 ---
 
 import Card from '@site/src/components/Card/Card';
