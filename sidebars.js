@@ -30,6 +30,7 @@ const sidebars = {
     'welcome',
     'faq',
     'network-analysis',
+    'free-vs-pro',
     'firststeps-locations',
     {
       type: 'category',
@@ -73,14 +74,15 @@ const sidebars = {
         }
       })(),
       defaultStyle: true,
-    },
+    },    
     {
       type: "category",
       label: "Call of Duty 2",
       items: [
         {
         },
-        "cod2-firststeps-dashboard"
+        "cod2-firststeps-dashboard",
+        "cod2-rcon"
       ],
     },
     {
@@ -89,7 +91,8 @@ const sidebars = {
       items: [
         {
         },
-        "cod4-firststeps-dashboard"
+        "cod4-firststeps-dashboard",
+        "cod4-rcon"
       ],
     },
     {
@@ -101,17 +104,29 @@ const sidebars = {
           label: "Administration",
           items: [
             "cs16-becomeadmin",
+            "cs16-rcon"
           ]
         },
       ],
     },
     {
       type: "category",
+      label: "Counter-Strike: Condition Zero",
+      items: [
+        {
+        },
+        "cscz-becomeadmin",
+        "cscz-rcon"
+      ],
+    },    
+    {
+      type: "category",
       label: "Counter-Strike: Source",
       items: [
         {
         },
-        "css-firststeps-dashboard"
+        "css-firststeps-dashboard",
+        "css-rcon"
       ],
     },
     {
@@ -120,7 +135,9 @@ const sidebars = {
       items: [
         {
         },
-        "cs2-firststeps-dashboard"
+        "cs2-firststeps-dashboard",
+        "cs2-rcon",
+	      "cs2-pluginslist",
       ],
     },
     {
@@ -129,18 +146,10 @@ const sidebars = {
       items: [
         {
         },
-        "hldm-firststeps-dashboard"
+        "hldm-firststeps-dashboard",
+        "hldm-rcon"
       ],
     },
-    {
-      type: "category",
-      label: "Team Fortress 2",
-      items: [
-        {
-        },
-        "tf2-firststeps-dashboard"
-      ],
-    },                
     {
       type: 'html',
       className: 'sidebar-title',
@@ -155,44 +164,76 @@ const sidebars = {
       type: "category",
       label: "COD",
       items: [
-        "cod-firststeps-dashboard"
+        "cod-firststeps-dashboard",
+        "cod-rcon"
       ],
     },
     {
       type: "category",
       label: "COD2",
       items: [
-        "cod2-firststeps-dashboard"
+        "cod2-firststeps-dashboard",
+        "cod2-rcon"
       ],
     },
     {
       type: "category",
       label: "COD4: MW",
       items: [
-        "cod4-firststeps-dashboard"
+        "cod4-firststeps-dashboard",
+        {
+          type: "category",
+          label: "Configuration & Administration",
+          items: [
+            "cod4-rcon"
+          ]
+        },
+        {
+          type: "category",
+          label: "Mods",
+          items: [
+            "cod4-promodlive",
+	          "cod4-fpspromod",
+            "cod4-gungame",
+            "cod4-jumper",
+	          "cod4-stockmaps"
+          ]
+        },
       ],
-    },        
+    },
+    {
+      type: "category",
+      label: "COD: United Offensive",
+      items: [
+        "coduo-firststeps-dashboard",
+        "coduo-rcon"
+      ],
+    },    
     {
       type: "category",
       label: "CS16",
       items: [
-        "cs16-becomeadmin"
+        "cs16-becomeadmin",
+        "cs16-rcon"
       ],
     },
     {
       type: "category",
       label: "CSCZ",
       items: [
-        "cscz-firststeps-dashboard"
+        "cscz-firststeps-dashboard",
+        "cscz-becomeadmin",
+        "cscz-rcon"
       ],
     },
     {
       type: "category",
       label: "CSS",
       items: [
-        "css-firststeps-dashboard"
+        "css-firststeps-dashboard",
+        "css-rcon"
       ],
-    },          
+    },
     {
       type: "category",
       label: "CS2",
@@ -202,22 +243,28 @@ const sidebars = {
           type: "category",
           label: "Configuration & Administration",
           items: [
-            "cs2-becomeadmin"
+            "cs2-becomeadmin",
+            "cs2-rcon"
           ]
         },
         {
           type: "category",
-          label: "Plugins / Mods",
+          label: "Plugins",
           items: [
             "cs2-plugins"
           ]
         },
       ],
     },
-    
-    
+    {
+      type: "category",
+      label: "HLDM",
+      items: [
+        "hldm-firststeps-dashboard",
+        "hldm-rcon"
+      ],
+    }, 
   ],
-  
 };
 
 export default sidebars;

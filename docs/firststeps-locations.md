@@ -16,9 +16,9 @@ We are currently offering our server products in **FFM, DE, FSN DE, Ashburn, USA
 As briefly mentioned in advance, we are continuously developing and expanding the scope of our products. However, this is not necessarily always easy and uncomplicated to implement. For that reason, it can happen that we are not able to offer every product at every location from the beginning. You will find an overview of the availability of the server products at the respective locations below. 
 
 | Locations               | Gameserver |
-| ----------------------- | ---------- |
+| ----------------------- | :---------:|
 | Frankfurt am Main, DE	  | ✓          |
-| Falkenstein, DE	  | ✓          |
+| Falkenstein, DE	      | ✓          |
 | Ashburn, USA            | ✓          |
 | Singapore, Asia         | ✓          |
 
@@ -29,4 +29,4 @@ You are unsure which location is the best for you? That's no problem! We have de
 
 You can click on this link to try testing ping: [Looking Glass](https://fshost.me/lg) 
 
-![image](https://wiki2.mrc4t.xyz/img/lg.png)
+![image](https://help.fshost.me/img/lg.png)

@@ -22,7 +22,7 @@ CSTV offers the possibility to broadcast games live with a little delay. This me
 
 ## Activation
 
-The activation of the CSTV service is done via the **panel** page. 
+The activation of the CSTV service is done via our **panel** page. 
 
 
 ## Configuration
@@ -31,21 +31,10 @@ The above commands are mandatory so that the CSTV master server is activated and
 
 |            Command            |                         Description                         |
 | :--------------------------: | :----------------------------------------------------------: |
-|  tv_allow_camera_man "0\|1"  |        Spectators can take over as a cameraman        |
-| tv_allow_static_shots "0\|1" |    Uses fixed-orientation cameras for shooting    |
-| tv_chattimelimit "seconds"  | Restricts viewers to write only every x seconds |
-|       tv_debug "0\|1"        |             Display of CSTV debug information             |
-|   tv_delaymapchange "0\|1"   | Delays the card change until the transfer is complete |
-|      tv_maxclients "n"       |          Maximum number of clients on the CSTV server          |
-|        tv_maxrate "n"        | Max. Allowed CSTV viewer bandwidth rate, 0 == unlimited |
-|        tv_msg "text"         |           Sends a message to all viewers           |
 |        tv_name "name"        | CSTV hostname. Defines the CSTV name as it appears in the server browser and in the status bar |
-|       tv_nochat "0\|1"       |           Activate/Deactivate the CSTV chat           |
 |    tv_password "password"    |       Protects the CSTV transmission with a password       |
 |     tv_record "filename"     |             Starts recording a CSTV demo             |
-|           tv_stop            |                 Stops the CSTV transmission                 |
 |        tv_stoprecord         |            Stops recording a CSTV demo             |
-|           tv_title           |           Defines the name of the CSTV transmission           |
 
 
 

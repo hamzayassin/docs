@@ -26,7 +26,7 @@ To create a game server login token, you need to be logged in to the Steam websi
 
 
 
-![image](https://wiki2.mrc4t.xyz/img/GSLT.png)
+![image](https://help.fshost.me/img/GSLT.png)
 
 
 
@@ -42,7 +42,7 @@ When you get there, you will be asked for the App ID and a memo (any name you wi
 
 The GSL token can be defined in the interface under the WeaponPaints setting.
 
-![image](https://wiki2.mrc4t.xyz/img/fshgslt.png)
+![image](https://help.fshost.me/img/fshgslt.png)
 
 Once this step is done, remember save and restart the server, the server will also appear in the public server list. 
 
