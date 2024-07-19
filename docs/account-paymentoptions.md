@@ -10,7 +10,7 @@ FSHOST offers a large number of different payment options with which servers can
 * **Credit card:** Payment by Stripe.
 * **PayPal:** Payment by PayPal.
 
-![](https://wiki2.mrc4t.xyz/img/123.png)
+![](https://help.fshost.me/img/123.png)
 
 
 ## Payment process

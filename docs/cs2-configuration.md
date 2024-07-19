@@ -79,13 +79,6 @@ Mapgroups are groups of maps which normally correspond to a certain category. By
 The start map is used to determine which map should be loaded during the startup process. It is important that the name of the map is written completely and correctly. The file extension is not necessary. 
 
 
-
-**Pingboost**
-
-Pingboost is a way to change the feel of the game by various methods to achieve the lowest possible ping.
-
-
-
 ### Configuration via server.cfg
 
 In the **server.cfg** you can change the settings for server name, rcon password and server password. 
