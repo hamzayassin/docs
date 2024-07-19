@@ -19,4 +19,4 @@ Below you will be able to see which plugins are available/unavailable on our fre
 | MatchZy / PracticeMode                  |  &#x2718; No   | ✅ Yes |
 | OpenPrefirePrac                         |  &#x2718; No   | ✅ Yes |
 | CS2-Retakes                             |  &#x2718; No   | ✅ Yes |
-| WeaponPaints (Skins)                    |  &#x2718; No   | ✅ Yes |
+| WeaponPaints (Skins)                    |  &#x2718; No   | ✅ Yes (**GSLT required**) |
