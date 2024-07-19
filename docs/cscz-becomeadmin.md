@@ -1,12 +1,12 @@
 ---
-id: cs16-becomeadmin
-title: "CS 1.6: Become an admin on your own server"
-description: Information on how to become an admin on your CS 1.6 server from FSHOST
+id: cscz-becomeadmin
+title: "CSCZ: Become an admin on your own server"
+description: Information on how to become an admin on your CSCZ server from FSHOST
 sidebar_label: Become admin
 ---
 
-**How can I become admin on CS1.6 server?**<br />
-First, connect to the CS1.6 server and open your console in the game
+**How can I become admin on CSCZ server?**<br />
+First, connect to the CSCZ server and open your console in the game
 
 :::tip
 You need to remember the RCON Password you has made. if you have closed the browser down, you can open it again to find the passwords. [this panel](https://fshost.me/free-panel)
@@ -33,12 +33,12 @@ On this screenshot, we can confirm our RCON work
 
 ![image](https://help.fshost.me/img/cs16-console3.png)
 
-Done, you are now an administrator on the CS1.6 server and you have access to this command: `amxmodmenu`.
+Done, you are now an administrator on the CSCZ server and you have access to this command: `amxmodmenu`.
 
 :::note
-**You do not get permanent admin on our free CS 1.6 service.**
+**You do not get permanent admin on our free CSCZ service.**
 
-If you want permanent admin for CS 1.6 server, we recommend taking a look at this product: [Pro](https://fshost.me/pro)
+If you want permanent admin for CSCZ server, we recommend taking a look at this product: [Pro](https://fshost.me/pro)
 :::
 
 
