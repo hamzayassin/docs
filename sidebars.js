@@ -27,11 +27,20 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    'welcome',
-    'faq',
-    'network-analysis',
-    'free-vs-pro',
-    'firststeps-locations',
+    "welcome",
+    "faq",
+    "free-vs-pro",
+    {
+      type: 'category',
+      label: 'Pro Control Panel',
+      items: [
+        "dashboard",
+        "serverlist",
+        "editserver"
+      ]
+    }, 
+    "network-analysis",
+    "firststeps-locations",   
     {
       type: 'category',
       label: 'Support',
@@ -44,6 +53,7 @@ const sidebars = {
       type: 'category',
       label: 'Account',
       items: [
+        "banned",
         "account-termination-and-cancellation-period",
         "account-paymentoptions",
       ]
@@ -77,7 +87,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "COD",
+      label: "Call of Duty",
       items: [
         "cod-firststeps-dashboard",
         "cod-rcon"
@@ -85,7 +95,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "COD2",
+      label: "Call of Duty 2",
       items: [
         "cod2-firststeps-dashboard",
         "cod2-rcon"
@@ -93,7 +103,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "COD4: MW",
+      label: "Call of Duty 4: Modern Warfare",
       items: [
         "cod4-firststeps-dashboard",
         {
@@ -118,7 +128,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "COD: United Offensive",
+      label: "Call of Duty: United Offensive",
       items: [
         "coduo-firststeps-dashboard",
         "coduo-rcon"
@@ -126,7 +136,7 @@ const sidebars = {
     },    
     {
       type: "category",
-      label: "CS16",
+      label: "Counter-Strike: 1.6",
       items: [
         "cs16-becomeadmin",
         "cs16-rcon"
@@ -134,7 +144,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CSCZ",
+      label: "Counter-Strike: Condition Zero",
       items: [
         "cscz-firststeps-dashboard",
         "cscz-becomeadmin",
@@ -143,7 +153,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CSS",
+      label: "Counter-Strike: Source",
       items: [
         "css-firststeps-dashboard",
         "css-rcon"
@@ -151,9 +161,10 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "CS2",
+      label: "Counter-Strike: 2",
       items: [
         "source-gsltoken",
+        "cs2-pluginslist",
         {
           type: "category",
           label: "Configuration & Administration",
@@ -164,16 +175,16 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Plugins",
+          label: "Plugins: Pro List",
           items: [
-            "cs2-plugins"
+            "cs2-matchzy"
           ]
         },
       ],
     },
     {
       type: "category",
-      label: "HLDM",
+      label: "Half-Life: Deathmatch",
       items: [
         "hldm-firststeps-dashboard",
         "hldm-rcon"
