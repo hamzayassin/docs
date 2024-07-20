@@ -177,7 +177,13 @@ const sidebars = {
           type: "category",
           label: "Plugins: Pro List",
           items: [
-            "cs2-matchzy"
+            "cs2-matchzy",
+            "cs2-retakes",
+            "cs2-skins",
+            "cs2-simpleadmin",
+            "cs2-cstv2discord",
+            "cs2-deathmatch",
+            "cs2-customadmins"
           ]
         },
       ],
