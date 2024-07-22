@@ -6,6 +6,17 @@ title: "MatchZy"
 MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
 #### This plugin has been modified for FSHOST Pro!
 
+:::warning[!map & !mapname]
+**Please note that we have disabled some commands that should not be used during an ongoing match/scrim due to an error on VALVe's part that has NOT been fixed.**
+<br />
+We have deactivated !map and the !mapname that belongs to, for example, the map names.
+Examples is locked:
+<br />!map
+<br />!dust2, !nuke, !mirage and so on...
+
+**It is automatically reactivated when your already running scrim/match is finished.**
+:::
+
 ## What can MatchZy do?
 MatchZy can solve a lot of match management requirements. It provides basic commands like `!ready`, `!unready`, `!pause`, `!unpause`, `!tac`, `!tech`, etc., matches stats, and much more!
 
