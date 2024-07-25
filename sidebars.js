@@ -106,24 +106,19 @@ const sidebars = {
       label: "Call of Duty 4: Modern Warfare",
       items: [
         "cod4-firststeps-dashboard",
-        {
-          type: "category",
-          label: "Configuration & Administration",
-          items: [
-            "cod4-rcon"
-          ]
-        },
+        "cod4-rcon",
         {
           type: "category",
           label: "Mods",
           items: [
             "cod4-promodlive",
-	          "cod4-fpspromod",
+            "cod4-fpspromod",
             "cod4-gungame",
             "cod4-jumper",
-	          "cod4-stockmaps"
+            "cod4-stockmaps"
           ]
         },
+        "cod4-customfeatures"
       ],
     },
     {
