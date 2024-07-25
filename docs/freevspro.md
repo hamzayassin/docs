@@ -10,3 +10,4 @@ title: "Free vs Pro"
 | Auto-update        | Yes            | Yes           |
 | Player Slots       | Up to 14       | Up to 18 (Extras are available on request and for a fee) |
 | FTP/File access    | No             | No. Managed hosting, changes by request |
+| CS2 Workshop access | No            | Yes           |
