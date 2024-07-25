@@ -106,13 +106,7 @@ const sidebars = {
       label: "Call of Duty 4: Modern Warfare",
       items: [
         "cod4-firststeps-dashboard",
-        {
-          type: "category",
-          label: "Configuration & Administration",
-          items: [
-            "cod4-rcon"
-          ]
-        },
+        "cod4-rcon",
         {
           type: "category",
           label: "Mods",
