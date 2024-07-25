@@ -112,12 +112,13 @@ const sidebars = {
           label: "Mods",
           items: [
             "cod4-promodlive",
-	          "cod4-fpspromod",
+            "cod4-fpspromod",
             "cod4-gungame",
             "cod4-jumper",
-	          "cod4-stockmaps"
+            "cod4-stockmaps"
           ]
         },
+        "cod4-customfeatures"
       ],
     },
     {
