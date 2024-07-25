@@ -133,6 +133,7 @@ const sidebars = {
       type: "category",
       label: "Counter-Strike: 1.6",
       items: [
+        "cs16-firststeps-dashboard",        
         "cs16-becomeadmin",
         "cs16-rcon"
       ],
@@ -158,6 +159,7 @@ const sidebars = {
       type: "category",
       label: "Counter-Strike: 2",
       items: [
+        "cs2-firststeps-dashboard",
         "source-gsltoken",
         "cs2-pluginslist",
         {
