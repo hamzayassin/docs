@@ -118,7 +118,7 @@ const sidebars = {
             "cod4-stockmaps"
           ]
         },
-        "cod4-customfeatures"
+        "cod4-freevspro"
       ],
     },
     {
