@@ -180,7 +180,6 @@ const sidebars = {
             "cs2-simpleadmin",
             "cs2-cstv2discord",
             "cs2-deathmatch",
-            "cs2-customadmins",
             "cs2-openprefireprac"
           ]
         },
