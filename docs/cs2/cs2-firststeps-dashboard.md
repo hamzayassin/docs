@@ -1,5 +1,5 @@
 ---
-slug: cs2-dashboard
+slug: dashboard
 id: cs2-firststeps-dashboard
 title: "Creating a server"
 ---

@@ -1,4 +1,5 @@
 ---
+slug: dashboard
 id: cod4-firststeps-dashboard
 title: "Creating a server"
 ---
