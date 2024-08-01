@@ -1,7 +1,8 @@
 ---
-id: cod4-gungame
-title: "GunGame"
-description: Information about COD4:MW GunGame
+slug: gungame
+id: cod4-mods-gungame
+title: "GunGame v1.0"
+description: Information about GunGame v1.0
 ---
 
 ## Feature List
