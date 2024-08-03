@@ -181,7 +181,8 @@ const sidebars = {
             "cs2/plugins/cs2-plugins-cstv2discord",
             "cs2/plugins/cs2-plugins-deathmatch",
             "cs2/plugins/cs2-plugins-customadmins",
-            "cs2/plugins/cs2-plugins-openprefireprac"
+            "cs2/plugins/cs2-plugins-openprefireprac",
+            "cs2/plugins/cs2-plugins-ingamecommands"
           ]
         },
       ],
