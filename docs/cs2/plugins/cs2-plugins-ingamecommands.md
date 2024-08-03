@@ -17,7 +17,7 @@ You don't need to use `/` for execute a in-game command. You can already use `!`
 | /help | Printing available in-game commands as chat |
 | /dmon | Switching Deathmatch ON |
 | /dmoff | Switching Deathmatch OFF |
-| /map <mapname> | Switching to the map you like to play - Example: /map de_nuke |
+| /map `mapname` | Switching to the map you like to play - Example: /map de_nuke |
 | /retake | Switching Retake ON |
 | /matchzy | Switching MatchZy ON |
 | /practice | Switching to Practice Mode from MatchZy |
