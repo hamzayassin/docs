@@ -105,17 +105,17 @@ const sidebars = {
       type: "category",
       label: "Call of Duty 4: Modern Warfare",
       items: [
-        "cod4/cod4-firststeps-dashboard",
+        "cod4/cod4-landing",
         "cod4/cod4-rcon",
         {
           type: "category",
           label: "Mods",
           items: [
-            "cod4/cod4-promodlive",
-            "cod4/cod4-fpspromod",
-            "cod4/cod4-gungame",
-            "cod4/cod4-jumper",
-            "cod4/cod4-stockmaps"
+            "cod4/mods/cod4-mods-promodlive",
+            "cod4/mods/cod4-mods-fpspromod",
+            "cod4/mods/cod4-mods-gungame",
+            "cod4/mods/cod4-mods-codjumper",
+            "cod4/mods/cod4-mods-stock-custom-maps"
           ]
         },
         "cod4/cod4-customfeatures"
