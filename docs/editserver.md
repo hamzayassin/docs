@@ -1,6 +1,6 @@
 ---
 id: editserver
-title: Edit Server Settings
+title: "Edit Server Settings"
 ---
 
 If you need to change anything in your server's settings. Then press Edit and you'll get a Edit Server Settings similar to the one shown in the image below.

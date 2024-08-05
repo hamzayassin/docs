@@ -2,7 +2,7 @@
 slug: promodlive
 id: cod4-mods-promodlive
 title: "Promod LIVE v2.20"
-description: Information about Promod LIVE v2.20
+description: "Information about Promod LIVE v2.20"
 ---
 
 Promod, a competition mod for Call of Duty 4: Modern Warfare

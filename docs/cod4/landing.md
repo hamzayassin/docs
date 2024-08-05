@@ -1,8 +1,8 @@
 ---
-slug: landing
+slug: creating-a-server
 id: cod4-landing
-title: "CoD4 at FSHOST"
-label: "test"
+title: "Creating a CoD4 server"
+sidebar_label: "Creating a server"
 ---
 
 We offer both Free and Pro servers for CoD4.

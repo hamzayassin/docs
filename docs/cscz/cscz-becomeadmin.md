@@ -2,8 +2,8 @@
 slug: becomeadmin
 id: cscz-becomeadmin
 title: "CSCZ: Become an admin on your own server"
-description: Information on how to become an admin on your CSCZ server from FSHOST
-sidebar_label: Become admin
+description: "Information on how to become an admin on your CSCZ server from FSHOST"
+sidebar_label: "Become admin"
 ---
 
 **How can I become admin on CSCZ server?**<br />

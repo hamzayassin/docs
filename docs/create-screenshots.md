@@ -1,8 +1,8 @@
 ---
 id: create-screenshots
-title: How and with which tool to create screenshots
-description: Information on how you can take screenshots and which tools are recommended
-sidebar_label: Create Screenshots
+title: "How and with which tool to create screenshots"
+description: "Information on how you can take screenshots and which tools are recommended"
+sidebar_label: "Create Screenshots"
 ---
 
 ## Create screenshots

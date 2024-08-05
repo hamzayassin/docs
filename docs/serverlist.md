@@ -1,8 +1,8 @@
 ---
 id: serverlist
 title: "Serverlist"
-description: Information about the Serverlist
-sidebar_label: Serverlist
+description: "Information about the Serverlist"
+sidebar_label: "Serverlist"
 ---
 
 

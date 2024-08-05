@@ -1,8 +1,8 @@
 ---
 id: firststeps-locations
-title: Locations
-description: FSHOST Locations Info
-sidebar_label: Locations
+title: "Locations"
+description: "FSHOST Location Info"
+sidebar_label: "Locations"
 ---
 
 

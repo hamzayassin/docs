@@ -1,7 +1,7 @@
 ---
 id: welcome
-title: Welcome to the FSHOST Documentation!
-sidebar_label: Welcome!
+title: "Welcome to the FSHOST Documentation!"
+sidebar_label: "Welcome!"
 ---
 
 import Card from '@site/src/components/Card/Card';
