@@ -1,6 +1,6 @@
 ---
 id: banned
-title: Why am I blocked
+title: "Why am I blocked"
 ---
 
 Wondering why you've been banned on the platform?

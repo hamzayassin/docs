@@ -1,8 +1,8 @@
 ---
 id: dashboard
 title: "Dashboard"
-description: Information about the Dashboard
-sidebar_label: Dashboard
+description: "Information about the Dashboard"
+sidebar_label: "Dashboard"
 ---
 
 

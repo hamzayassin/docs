@@ -1,8 +1,8 @@
 ---
 id: source-gsltoken
-title: Using game server login tokens
-description: Information on how to create and use a login token for your Source game server from FSHOST
-sidebar_label: GSL-Token
+title: "Using game server login tokens"
+description: "Information on how to create and use a login token for your Source game server from FSHOST"
+sidebar_label: "GSL-Token"
 ---
 
 ## ❓ What is a GSL token?

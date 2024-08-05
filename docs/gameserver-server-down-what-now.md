@@ -1,8 +1,8 @@
 ---
 id: gameserver-server-down-what-now
-title: 'Game server: Server down - What now?'
-description: Information on what to do if your game server from FSHOST has crashed or is down
-sidebar_label: Server crash - What to do?
+title: "Game server: Server down - What now?"
+description: "Information on what to do if your game server from FSHOST has crashed or is down"
+sidebar_label: "Server crash - What to do?"
 ---
 
 ## Introduction

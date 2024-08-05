@@ -2,8 +2,8 @@
 slug: plugins
 id: cs2-plugins
 title: "CS2: Installation of plugins"
-description: Information about installing plugins for CS2 Server from FSHOST
-sidebar_label: Install plugins
+description: "Information about installing plugins for CS2 Server from FSHOST"
+sidebar_label: "Install plugins"
 ---
 
 :::caution

@@ -1,8 +1,8 @@
 ---
 id: account-termination-and-cancellation-period
-title: Cancellation of prepaid gameserver
-description: Information about cancellation periods and how to cancel a prepaid server at FSHOST - fshost.me documentation
-sidebar_label: Termination and Cancellation
+title: "Cancellation of prepaid game server"
+description: "Information about cancellation periods and how to cancel a prepaid server at FSHOST"
+sidebar_label: "Termination and Cancellation"
 ---
 
 Learn more about the termination and the notice period.

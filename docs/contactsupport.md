@@ -1,8 +1,8 @@
 ---
 id: contactsupport
-title: Contacting Support to report problems
-description: Information on how to contact support if you have problems with your FSHOST server
-sidebar_label: Report problems
+title: "Contacting Support to report problems"
+description: "Information on how to contact support if you have problems with your FSHOST server"
+sidebar_label: "Report problems"
 ---
 
 ## Troubleshooting your problem

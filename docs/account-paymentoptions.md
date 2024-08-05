@@ -2,7 +2,7 @@
 id: account-paymentoptions
 title: "Payment options: What payment options are available"
 description: "Information about the different payment options at FSHOST PayPal and Stripe - fshost.me documentation"
-sidebar_label: Payment options
+sidebar_label: "Payment options"
 ---
 
 ## Overview

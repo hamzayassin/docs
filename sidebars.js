@@ -74,7 +74,7 @@ const sidebars = {
       defaultStyle: true,
     },
     "gameserver-server-down-what-now",
-    "serverfaqs",
+    "server-faqs",
     {
       type: 'html',
       className: 'sidebar-title',

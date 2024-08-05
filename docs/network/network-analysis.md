@@ -1,8 +1,8 @@
 ---
 slug: /network-analysis
 title: "Network troubleshooting with MTR/WinMTR"
-description: Information on how to perform a network analysis with MTR/WinMTR to identify network problems
-sidebar_label: Network troubleshooting
+description: "Information on how to perform a network analysis with MTR/WinMTR to identify network problems"
+sidebar_label: "Network troubleshooting"
 ---
 
 ## Introduction

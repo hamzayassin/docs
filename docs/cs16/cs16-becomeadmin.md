@@ -2,8 +2,8 @@
 slug: becomeadmin
 id: cs16-becomeadmin
 title: "CS 1.6: Become an admin on your own server"
-description: Information on how to become an admin on your CS 1.6 server from FSHOST
-sidebar_label: Become admin
+description: "Information on how to become an admin on your CS 1.6 server from FSHOST"
+sidebar_label: "Become admin"
 ---
 
 **How can I become admin on CS1.6 server?**<br />

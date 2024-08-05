@@ -2,8 +2,8 @@
 slug: becomeadmin
 id: cs2-becomeadmin
 title: "CS2: Become admin"
-description: Information on how to become an admin on your CS2 server from FSHOST
-sidebar_label: Become admin
+description: "Information on how to become an admin on your CS2 server from FSHOST"
+sidebar_label: "Become admin"
 ---
 
 
