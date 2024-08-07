@@ -52,4 +52,13 @@ Kick a player
 <br />`rcon kick #id or name`
 
 ## Other Commands
-*Coming soon*
+| RCON Command | Description |
+| ------------ | ----------- |
+| rcon mp_timelimit [amount of time in minutes] | Change the map timelimit |
+| rcon mp_autokick 0/1 | Autokicks an idling person 1 is on, 0 is off |
+| rcon mp_autoteambalance 0/1 | Toggles the forcing of clients to join teams to make it balanced – Setting of 1 = ‘on’, and 0 = ‘off’. |
+| rcon mp_c4timer x | Sets the amount of time in between C4 placement and its explosion – ranges between 15 and 90 seconds. |
+| rcon mp_freezetime x | Sets the amount of “freeze” time at the beginning of each round to buy weapons and equipment – Use a setting of ‘0’ to disable. |
+| rcon mp_friendlyfire 0/1 | Toggles friendly fire |
+| rcon sv_alltalk 0/1 | Toggles team only or entire server mic chat |
+| rcon sv_voiceenable 0/1 | Allows clients to use mic |
