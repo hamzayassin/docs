@@ -23,7 +23,9 @@ We don't offer uploading files on our free or Pro servers. If you want us to add
 \
 No FTP is provided here.
 \
-No bots are provided on free servers. **Only Pro can add bots!**
+No bots are provided on free servers.
+\
+Bots are available as Pro on the following games: **CS 1.6**, **CS Source** and **CS2**
 </details>
 
 
