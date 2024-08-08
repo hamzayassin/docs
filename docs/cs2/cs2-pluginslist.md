@@ -14,6 +14,7 @@ Below you will be able to see which plugins are available/unavailable on our fre
 | CSTVDemo to Discord                     |  &#x2718; No   | ✅ Yes |
 | CS2-Deathmatch                          |  &#x2718; No   | ✅ Yes |
 | CS2MapChange (!map de_mapname)          |      ✅ Yes    | ✅ Yes |
+| CS2Workmap (!wsmap fileID)              |  &#x2718; No   | ✅ Yes |
 | CustomAdmins (AddAdmin/DelAdmin)        |  &#x2718; No   | ✅ Yes |
 | In-Game Commands                        |  &#x2718; No   | ✅ Yes |
 | GunGame                                 |  &#x2718; No   | ✅ Yes |
