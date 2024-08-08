@@ -62,3 +62,18 @@ Kick a player
 | rcon mp_friendlyfire 0/1 | Toggles friendly fire |
 | rcon sv_alltalk 0/1 | Toggles team only or entire server mic chat |
 | rcon sv_voiceenable 0/1 | Allows clients to use mic |
+
+
+## PODBot Commands
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro only</span><br />
+:::tip
+You can use **amx_pbmenu** to control bots. You only need to be an admin on your CS1.6 server for this to be possible.
+:::
+
+| RCON Command | Description |
+| ------------ | ----------- |
+| `rcon pb add x` | This command adds a Bot with parameters - skill You can write from 1 to 100 |
+| `rcon pb_autokill 0/1` | Turns on/off auto killing bots if all human players are dead already. Default is off (0). |
+| `rcon pb removebots` | This command kicks bots from Your server until reaching pb_minbots. |
+
+You can find more commands from [this page](http://podbotmm.bots-united.com/doc_v3/html/pbmm_configuration.html)
