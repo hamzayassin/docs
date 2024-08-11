@@ -62,6 +62,11 @@ Kick a player
 | rcon mp_friendlyfire 0/1 | Toggles friendly fire |
 | rcon sv_alltalk 0/1 | Toggles team only or entire server mic chat |
 | rcon sv_voiceenable 0/1 | Allows clients to use mic |
+| rcon sv_cheats 0/1 | Toggles cheats |
+
+:::tip
+If you want to make use of `impulse 101`, (client side) then you need to enable sv_cheats and do changemap a random map.
+:::
 
 
 ## PODBot Commands
