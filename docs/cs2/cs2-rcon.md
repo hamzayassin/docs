@@ -42,6 +42,9 @@ You can also use maps from the [Steam Workshop](https://steamcommunity.com/works
 To restart the game after X amount of seconds.
 <br /> `fake_rcon mp_restartgame seconds`
 
+This command sets how much money players are given at the beginning of a half. Default is 800.
+<br /> `fake_rcon mp_startmoney Amount`
+
 
 **Password** <br />You can change or remove the password to join your server by leaving the value empty.
 <br /> `fake_rcon sv_password ""`
@@ -88,13 +91,3 @@ Kick a Player
 4. Create a match
 5. Go to My Matches
 6. Start
-
-
-### Money Commands
-| Command | Description |
-| ------- | ----------- |
-| cash_player_bomb_defused | This command defines how much money a player earns for defusing a bomb. You can' t give more than the maximum amount of money you can get on the server. |
-| cash_player_bomb_planted | This command defines how much money a player receives for planting the bomb. |
-| cash_player_damage_hostage | This command defines how much money is deducted or earned for the injury of a hostage. By default the player is charged $30 for each time the hostage gets injured. |
-| cash_player_interact_with_hostage | This command defines the money earned or lost for interaction with a hostage. |
-| cash_player_killed_enemy_default | This command defines how much money is earned or lost by killing an enemy player with a default weapon. |
