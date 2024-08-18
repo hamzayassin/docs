@@ -4,25 +4,36 @@ id: cs2-plugins-ingamecommands
 title: "InGame-Commands"
 ---
 
-This plugin is an ingame commands that admins already can use without having to use the console.
+This plugin is an ingame command that admins can use without using the console.
 
 This works with say and say_team.
 
 :::note
-You don't need to use `/` for execute a in-game command. You can already use `!`
+You don't need to use `/` to execute an in-game command. You can already use `!`
 :::
 
-| InGame Command | Description |
+| InGame Commands | Description |
 | ------------ | ----------- |
 | /help | Printing available in-game commands as chat |
-| /dmon | Switching Deathmatch ON |
-| /dmoff | Switching Deathmatch OFF |
-| /map `mapname` | Switching to the map you like to play - Example: /map de_nuke |
-| /retake | Switching Retake ON |
-| /matchzy | Switching MatchZy ON |
-| /practice | Switching to Practice Mode from MatchZy |
-| /skinson | GSLT is required, before skins works |
-| /prefireon | Switching OpenPrefirePlugin ON |
-| /gm | Gamemode Commands |
-| /ggon | Switching GunGame ON |
+| /comp | Switching to Competitive Gamemode (MatchZy is auto-activated) |
+| /casual | Switching to Casual Gamemode |
+| /wingman | Switching to Wingman Gamemode | 
+| /dmmulticfg | Multi-CFG Deathmatch (Aliases: `!dmon`) |
+| /dmvalve | VALVe Deathmatch (Aliases: `!valvedm`) |
+| /retake | Retake Mode (Aliases: `!retakes`) |
+| /map `mapname` | Switch to the map you like to play - Example: `/map nuke` |
+| /retake | Switching to Retake |
+| /matchzy | Switching to MatchZy (Available if you're playing OpenPrefirePrac, Retake or Deathmatch) |
+| /skinson | Turn skins on - GSLT is required before skins work |
+| /prefireon | Switching to PrefireMode - [OpenPrefirePrac Commands](https://help.fshost.me/docs/cs2/plugins/openprefireprac) |
 
+| Maps Commands | 
+| ------------ |
+| /mirage |
+| /overpass |
+| /anubis |
+| /vertigo |
+| /ancient | 
+| /nuke |
+| /inferno |
+| /dust2 |
