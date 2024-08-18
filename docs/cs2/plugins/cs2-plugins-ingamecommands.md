@@ -4,7 +4,7 @@ id: cs2-plugins-ingamecommands
 title: "InGame-Commands"
 ---
 
-This plugin is an ingame command that admins can use without using the console.
+This plugin is an ingame-commands that admins can use without the console.
 
 This works with say and say_team.
 
