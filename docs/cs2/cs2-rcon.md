@@ -15,7 +15,7 @@ title: "RCON Commands"
 
 
 ## Log into RCON
-Open your in-game console and run one of the following commands to login to your server as admin.
+Open your in-game console and run one of the following commands to log in to your server as admin.
 
 The RCON password will be displayed on your [free server panel](https://fshost.me/free-panel) or within your [Pro area](https://fshost.me/pro).
 
@@ -54,13 +54,13 @@ This command sets how much money players are given at the beginning of a half. D
 
 
 ## Load a different config/gamemode
-<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free & Pro only</span>
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free only</span>
 <br />Loads the predefined settings.
 
 | Chat Command | Description |
 | ------------ | ----------- |
 | !esl5on5     | This is a default esl5on5 file (None pause/unpause command!) |
-| !scrim       | Scrim configh with all rounds enabled (None pause/unpause command!) |
+| !scrim       | Scrim config with all rounds enabled (None pause/unpause command!) |
 | !dm          | Deathmatch Gamemode |
 | !retake      | Retake Gamemode |
 | !wingman     | Wingman Gamemode |
