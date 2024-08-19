@@ -28,7 +28,7 @@ You don't need to use `/` to execute an in-game command. You can already use `!`
 | /prefireon | Switching to PrefireMode - [OpenPrefirePrac Commands](https://help.fshost.me/docs/cs2/plugins/openprefireprac) |
 
 | Maps Commands | 
-| ------------ |
+| :------------: |
 | /mirage |
 | /overpass |
 | /anubis |
