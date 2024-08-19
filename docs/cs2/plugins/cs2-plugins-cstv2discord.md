@@ -12,7 +12,7 @@ CSTV registers your demo from the server in the server's unique server ID. This 
 ![alt text](https://help.fshost.me/img/image.png)
 
 ## Create Webhook on Discord
-Right-click on the channel you want plugin shall send the demoURL to and tap **Edit**.
+Right-click on the channel you want the plugin shall send the demo URL to and tap **Edit**.
 <br />Go to **Integrations** and press **Webhooks**, press New webhook
 
 ![alt text](https://help.fshost.me/img/image-1.png)
