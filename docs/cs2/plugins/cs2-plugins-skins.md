@@ -4,17 +4,17 @@ id: cs2-plugins-skins
 title: "WeaponPaints (Skins)"
 ---
 
-**Unfinished, unoptimized and not fully functional ugly weaponpaints plugin**
+**Unfinished, unoptimized and not fully functional ugly WeaponPaints plugin**
 
 :::note
 **You should be aware that the plugin is very unstable and you will therefore experience a loss packet on your server. And perhaps also high ping.**
 <br />
 
-**We recommend that you do not activate it in-game if you are not going to use the weaponpaints plugin.**
+**We recommend that you do not activate it in-game if you are not going to use the WeaponPaints plugin.**
 :::
 
 ## Features
-- You can changes paint, seed and wear on weapons, knives, gloves and agents.
+- You can change paint, seed and wear on weapons, knives, gloves and agents. (**Web version**)
 - Data syncs on player connect.
 
 **[Change your skin/float or seed on this link](https://skins.fsho.st)**
@@ -23,7 +23,7 @@ title: "WeaponPaints (Skins)"
 ## Commands
 | Chat Command | Description |
 | ------------ | ----------- |
-| `!wp`        | Refresh skins, if you has selected other skins by our [website] |
+| `!wp`        | Refresh skins, if you have selected other skins by our [website](https://skins.fsho.st) |
 | `!ws`        | Shows which commands are available in-game for weaponpaints. |
 | `!knife`     | Show menu with knives (You can select other knife skin) |
 | `!gloves`    | Show menu with gloves (You can select other gloves skin) |
