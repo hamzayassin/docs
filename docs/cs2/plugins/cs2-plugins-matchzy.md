@@ -11,7 +11,7 @@ MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matche
 **Please note that we have disabled some commands that should not be used during an ongoing match/scrim due to an error on VALVe's part that has NOT been fixed.**
 <br />
 We have deactivated !map and the !mapname that belongs to, for example, the map names.
-Examples is locked:
+Examples are locked:
 <br />!map
 <br />!dust2, !nuke, !mirage and so on...
 
@@ -84,13 +84,13 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 
 ### Admin Commands
 - `.start` Force starts a match.
-- `.restart` Force restarts/resets a match. (**This will stop the match and stopping the CSTV record**)
+- `.restart` Force restarts/resets a match. (**This will stop the match and stop the CSTV record**)
 - `.forcepause` Pauses the match as an admin (Players cannot unpause the admin-paused game). (`.fp` for a shorter command)
 - `.forceunpause` Force unpauses the match. (`.fup` for shorter command)
 - `.restore <round>` Restores the backup of the provided round number.
 - `.rk <on/off>` Toggles the knife round. If disabled, the match will directly go from the Warmup phase to the Live phase. (Can also use: `.kr <on/off>`, `.kniferound <on/off>`)
-- `.match` Activates match. This loads in match mode. (**All 10 players need to ready up, for knife-round**)
-- `.scrim` Activates scrim. This loads in scrim mode. (**All 10 players need to ready up, NONE KNIFE ROUND**) - All rounds would be played irrespective of the winner. Useful in scrims!
+- `.match` Activates match. This loads in match mode. (**All 10 players need to ready up, for the knife round**)
+- `.scrim` Activates scrim. This loads in scrim mode. (**All 10 players need to ready up.**) - All rounds would be played irrespective of the winner. Useful in scrims!
 - `.readyrequired <number>` Sets the number of ready players required to start the match. All connected players will have to be ready to start the game.
 - `.settings` Displays the current setting, like whether the knife is enabled or not, the value of ready required players, etc.
 - `.team1 <name>` Sets name for Team 1 (CT by default)
