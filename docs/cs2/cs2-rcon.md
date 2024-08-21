@@ -36,7 +36,7 @@ You can change the current map to any stock one.
 
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro only</span> 
-You can also use maps from the [Steam Workshop](https://steamcommunity.com/workshop/browse/?appid=730). Just enter the file ID (in URL after id=) after the command.
+You can also use maps from the [Steam Workshop](https://steamcommunity.com/workshop/browse/?appid=730). Enter the file ID (in URL after id=) after the command.
 <br /> `fake_rcon host_workshop_map fileID`
 
 To restart the game after X amount of seconds.
@@ -49,22 +49,24 @@ This command sets how much money players are given at the beginning of a half. D
 **Password** <br />You can change or remove the password to join your server by leaving the value empty.
 <br /> `fake_rcon sv_password ""`
 
-**Hostname** <br />You can change the hostname on the request form or if you want to change it after you've started it, you can do so using this command. **Please note that you are required to keep the advert part in the hostname.**
+**Hostname** <br />You can change the hostname on the request form or if you want to change it after you've started it, you can do so using this command. **Please note that you must keep the advert part in the hostname.**
 `fake_rcon hostname "CUSTOM HOSTNAME - free @ fshost.me"`
+
+**Cheats** <br />Do you want to enable sv_cheats?
+`fake_rcon sv_cheats 1`
 
 
 ## Load a different config/gamemode
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free only</span>
 <br />Loads the predefined settings.
 
-| Chat Command | Description |
+| RCON/Chat Command | Description |
 | ------------ | ----------- |
 | !esl5on5     | This is a default esl5on5 file (None pause/unpause command!) |
 | !scrim       | Scrim config with all rounds enabled (None pause/unpause command!) |
 | !dm          | Deathmatch Gamemode |
 | !retake      | Retake Gamemode |
 | !wingman     | Wingman Gamemode |
-| !cheats      | This command will activate sv_cheats |
 
 ## Load a different Map
 | Chat Command | Optional Command |
