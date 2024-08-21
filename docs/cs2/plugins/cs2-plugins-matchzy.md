@@ -15,7 +15,7 @@ Examples are locked:
 <br />!map
 <br />!dust2, !nuke, !mirage and so on...
 
-**It is automatically reactivated when your already running scrim/match is finished.**
+**When your running scrim/match is finished. Please wait 10 seconds, before you change the servermap.**
 :::
 
 ## What can MatchZy do?
@@ -89,11 +89,11 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 - `.forceunpause` Force unpauses the match. (`.fup` for shorter command)
 - `.restore <round>` Restores the backup of the provided round number.
 - `.rk <on/off>` Toggles the knife round. If disabled, the match will directly go from the Warmup phase to the Live phase. (Can also use: `.kr <on/off>`, `.kniferound <on/off>`)
-- `.match` Activates match. This loads in match mode. (**All 10 players need to ready up, for the knife round**)
-- `.scrim` Activates scrim. This loads in scrim mode. (**All 10 players need to ready up.**) - All rounds would be played irrespective of the winner. Useful in scrims!
+- `.match` Activates match. This loads in match mode. (**All 10 players need to ready up, knife round is default enabled on this mode**)
+- `.scrim` Activates scrim. This loads in scrim mode. (**All 10 players need to ready up, knife round is disabled**) - All rounds would be played irrespective of the winner. Useful in scrims!
 - `.readyrequired <number>` Sets the number of ready players required to start the match. All connected players will have to be ready to start the game.
 - `.settings` Displays the current setting, like whether the knife is enabled or not, the value of ready required players, etc.
-- `.team1 <name>` Sets name for Team 1 (CT by default)
-- `.team2 <name>` Sets name for Team 2 (Terrorist by default)
+- `.team1 <name>` Sets team name for Team 1 (CT by default)
+- `.team2 <name>` Sets team name for Team 2 (Terrorist by default)
 - `.prac` Starts Practice Mode
 - `.exitprac` Exits from practice mode and loads Match mode.
