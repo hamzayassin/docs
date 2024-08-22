@@ -17,9 +17,9 @@ To use administrator privileges, a foundation must first be established. By defa
 
 
 :::note
-**You won't be added as admin automatically by use `/login`.**
+**You won't be added as admin automatically by using `/login`.**
 <br />
-Please use `/addadmin <target>` to add yourself or your friend as admin.
+First, you use `/login <rconpass>` first, then `/addadmin <nickname/user ID/steamid64>` to add yourself or your friend as admin.
 <br />**Example target**:
 <br />Your SteamID64
 <br />or Your Steam-Nickname
@@ -27,7 +27,7 @@ Please use `/addadmin <target>` to add yourself or your friend as admin.
 
 | Chat Command | Description |
 | ------------ | ----------- |
-| `/login [rconpassword]` | Authenticate as the server owner to add or remove administrators from the server. |
-| `/addadmin [target]` | To add a new administrator to your CS2 server, you can enter their nickname/user ID if they are online on the server. If they are not online, you can use their SteamID64 or nickname. |
-| `/removeadmin [target]` | To remove an administrator from the server, you can enter their nickname/user ID if they are online. If they are not online, you can use their SteamID64 or nickname. |
+| `/login [rconpass]` | Authenticate as the server owner to add or remove administrators from the server. |
+| `/addadmin [target]` | To add a new administrator to your CS2 server, you can enter their nickname/user ID/steamid64 |
+| `/removeadmin [target]` | To remove an administrator from the server, you can enter their nickname/user ID/steamid64 |
 | `/listadmins` | Show a list of administrators on your CS2 server along with their SteamID64 and nickname. |
