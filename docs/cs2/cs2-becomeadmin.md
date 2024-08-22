@@ -21,8 +21,8 @@ To use administrator privileges, a foundation must first be established. By defa
 <br />
 Please use `/addadmin <target>` to add yourself or your friend as admin.
 <br />**Example target**:
-<br />SteamID64
-<br />Steam-Nickname
+<br />Your SteamID64
+<br />or Your Steam-Nickname
 :::
 
 | Chat Command | Description |
