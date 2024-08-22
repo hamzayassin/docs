@@ -9,7 +9,6 @@ sidebar_label: "Become admin"
 
 
 ## Introduction
-
 Using administrator privileges allows you to manage the server in-game. This gives you the ability to execute commands through the console.
 
 ## Prerequisites
@@ -19,11 +18,17 @@ To use administrator privileges, a foundation must first be established. By defa
 :::note
 **You won't be added as admin automatically by using `/login`.**
 <br />
-First, you use `/login <rconpass>` first, then `/addadmin <nickname/user ID/steamid64>` to add yourself or your friend as admin.
+1. Join your FSHOST Pro Server
+2. Type `/login <rconpass>` first,
+3. Type `/addadmin <nickname/user ID/steamid64>` to add yourself or your friend as admin.
 <br />**Example target**:
 <br />Your SteamID64
 <br />or Your Steam-Nickname
 :::
+
+**Example, when you have added yourself as admin**
+![2024-08-22_13-24](https://github.com/user-attachments/assets/74a456ce-627a-4508-ab33-c827415b6593)
+
 
 | Chat Command | Description |
 | ------------ | ----------- |
