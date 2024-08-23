@@ -14,10 +14,11 @@ Using administrator privileges allows you to manage the server in-game. This giv
 ## Prerequisites
 To use administrator privileges, a foundation must first be established. By default, CS2 does not offer comprehensive administration management. However, there are frameworks for this purpose, such as CounterStrikeSharp.
 
-
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro only</span>
 :::note
 **You won't be added as admin automatically by using `/login`.**
 <br />
+0. First, find your RCONPass (Edit your server) and remember the RCONPass you created to your CS2 Server
 1. Join your FSHOST Pro Server
 2. Type `/login <rconpass>` first,
 3. Type `/addadmin <nickname/user ID/steamid64>` to add yourself or your friend as admin.
