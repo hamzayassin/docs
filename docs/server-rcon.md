@@ -1,6 +1,7 @@
 ---
 id: server-rcon
 title: "RCON"
+slug: rcon
 description: "RCON for Game Servers"
 sidebar_label: "RCON"
 ---
