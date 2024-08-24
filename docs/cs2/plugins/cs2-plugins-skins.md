@@ -23,6 +23,7 @@ title: "WeaponPaints (Skins)"
 ## Commands
 | Chat Command | Description |
 | ------------ | ----------- |
+| /skinson     | Turn skins on - **GSLT is required before skins work** |
 | `!wp`        | Refresh skins, if you have selected other skins by our [website](https://skins.fsho.st) |
 | `!ws`        | Shows which commands are available in-game for weaponpaints. |
 | `!knife`     | Show menu with knives (You can select other knife skin) |
