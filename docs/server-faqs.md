@@ -26,6 +26,8 @@ No FTP is provided here.
 No bots are provided on free servers.
 \
 Bots are available as Pro on the following games: **CS 1.6**, **CS Source** and **CS2**
+\
+We do not add plugins on our free servers.
 </details>
 
 
