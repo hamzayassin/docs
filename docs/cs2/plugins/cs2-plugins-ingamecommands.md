@@ -24,7 +24,6 @@ You don't need to use `/` to execute an in-game command. You can already use `!`
 | /map `mapname` | Switch to the map you like to play - Example: `/map nuke` |
 | /retake | Switching to Retake |
 | /matchzy | Switching to MatchZy (Available if you're playing OpenPrefirePrac, Retake or Deathmatch) |
-| /skinson | Turn skins on - GSLT is required before skins work |
 | /prefireon | Switching to PrefireMode - [OpenPrefirePrac Commands](https://help.fshost.me/docs/cs2/plugins/openprefireprac) |
 
 | Maps Commands | 
