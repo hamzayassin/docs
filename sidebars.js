@@ -75,6 +75,7 @@ const sidebars = {
     },
     "gameserver-server-down-what-now",
     "server-faqs",
+    "server-rcon",
     {
       type: 'html',
       className: 'sidebar-title',
