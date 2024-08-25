@@ -73,7 +73,6 @@ const sidebars = {
       })(),
       defaultStyle: true,
     },
-    "gameserver-server-down-what-now",
     "server-faqs",
     "server-rcon",
     {
@@ -141,7 +140,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Counter-Strike: Condition Zero",
+      label: "Counter-Strike: CZero",
       items: [
         "cscz/cscz-firststeps-dashboard",
         "cscz/cscz-becomeadmin",
@@ -189,7 +188,7 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Half-Life: Deathmatch",
+      label: "Half-Life 1: Deathmatch",
       items: [
         "hldm/hldm-firststeps-dashboard",
         "hldm/hldm-rcon"
