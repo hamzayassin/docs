@@ -1,7 +1,7 @@
 ---
 slug: rcon
 id: cod4-rcon
-title: "RCON Commands"
+title: "CoD4 RCON Commands"
 ---
 
 ## Log into RCON
