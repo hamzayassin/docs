@@ -4,13 +4,8 @@ id: cs2-rcon
 title: "RCON Commands"
 ---
 
-
-<span style={{padding: '0.75rem', borderRadius: '0.25rem', fontWeight: '600', backgroundColor: '#E0E7FF', color: 'red'}}>RCON supplied by Valve is currently broken/non-functional. Please use fake_rcon as directed below.</span>
-
-
-## 
 ::::danger[RCON Info]
-<span style={{color: 'red'}}>**RCON supplied by Valve is currently broken/non-functional. Please use fake_rcon as directed below.**</span>
+<span style={{color: 'white'}}>**RCON supplied by Valve is currently broken/non-functional. Please use `fake_rcon` or other options as directed below.**</span>
 ::::
 
 
@@ -36,6 +31,7 @@ You can change the current map to any stock one.
 
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro only</span> 
+
 You can also use maps from the [Steam Workshop](https://steamcommunity.com/workshop/browse/?appid=730). Enter the file ID (in URL after id=) after the command.
 <br /> `fake_rcon host_workshop_map fileID`
 
@@ -56,21 +52,17 @@ This command sets how much money players are given at the beginning of a half. D
 `fake_rcon sv_cheats 1`
 
 
-## Load a different config/gamemode
+## Load a different config/gamemode/map
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free only</span>
 <br />Loads the predefined settings.
 
-| RCON/Chat Command | Description |
+| Chat Command | Description |
 | ------------ | ----------- |
 | !esl5on5     | This is a default esl5on5 file (None pause/unpause command!) |
 | !scrim       | Scrim config with all rounds enabled (None pause/unpause command!) |
 | !dm          | Deathmatch Gamemode |
 | !retake      | Retake Gamemode |
 | !wingman     | Wingman Gamemode |
-
-## Load a different Map
-| Chat Command | Optional Command |
-| ------------ | ---------------- |
 | !map ancient | !ancient         |
 | !map anubis  | !anubis          |
 | !map dust2   | !dust2           |
@@ -80,11 +72,6 @@ This command sets how much money players are given at the beginning of a half. D
 | !map overpass | !overpass       |
 | !map vertigo | !vertigo         |
 
-
-## Managing Players
-
-Kick a Player
-<br />`fake_rcon kickid #id`
 
 ## Matchmaking (eBot supported not in-game bots)
 1. Go to [public.ebot.wedeho.be](https://public.ebot.wedeho.be/)

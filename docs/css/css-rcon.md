@@ -5,17 +5,23 @@ title: "RCON Commands"
 ---
 
 ## Log into RCON/SourceMod
-Open console in-game and run the login command to gain access to all the following commands. The RCON password will be displayed on your [panel](https://fshost.me/free-panel).
-<br /><br /> **RCON** <br />
-`rcon_password type_rcon_pass_here`
-<br />**SourceMod** <br />
-`sm_login type_rcon_pass_here`
+Open the console in-game and run the login command to gain access to all the following commands. The RCON password will be displayed on your [panel](https://fshost.me/free-panel).
+<span style={{padding: '0.75rem', display: 'block', marginTop: '0.5rem', marginBottom: '1rem', borderRadius: '0.25rem', fontWeight: '600', backgroundColor: '#1F2937', color: 'white'}}>RCON (in-game console)<br />`rcon_password type_rcon_pass_here`<br />SourceMod (In-game Say / Say_Team)<br />`/login type_rcon_pass_here`</span>
 
-<span style={{padding: '0.75rem', display: 'block', marginTop: '0.5rem', marginBottom: '1rem', borderRadius: '0.25rem', fontWeight: '600', backgroundColor: '#1F2937', color: 'white'}}>RCON<br />rcon_password type_rcon_pass_here<br />SourceMod<br />sm_login type_rcon_pass_here</span>
+## SteamID64 Admin
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro only</span>
+
+:::info
+If you have already added your SteamID64 by editing the server below the field: **`Admin's SteamID64`** - For example, like this image below, where you add your SteamID64.
+
+![image](https://help.fshost.me/img/css-steamidadmin.png)
+\
+Then you already have access to use `!admin` and `!map mapname` already.
+:::
 
 ## General Settings
 :::tip
-If you want additional custom maps added that we don't already have, please [check here first](https://dl.fsho.st/cs16/maps/). If the maps you want are not there then [contact us](https://fshost.me/contact) with the map download links.
+If you want additional custom maps added that we don't already have, please [check here first](https://dl.fsho.st/cs16/maps/). If the maps you'd like to play are not there then [contact us](https://fshost.me/contact) with the map download links.
 
 <br />**We suggest these site below**:
 <br /> [Gamebanana](https://gamebanana.com/mods/cats/5181?)
@@ -53,6 +59,3 @@ Get players list
 
 Kick a player
 <br />`rcon kick #id or name`
-
-## Other Commands
-*Coming soon*
