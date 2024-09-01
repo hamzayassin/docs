@@ -160,16 +160,10 @@ const sidebars = {
       label: "Counter-Strike: 2",
       items: [
         "cs2/cs2-firststeps-dashboard",
+        "cs2/cs2-becomeadmin",
+        "cs2/cs2-rcon",
         "cs2/source-gsltoken",
         "cs2/cs2-pluginslist",
-        {
-          type: "category",
-          label: "Configuration & Administration",
-          items: [
-            "cs2/cs2-becomeadmin",
-            "cs2/cs2-rcon"
-          ]
-        },
         {
           type: "category",
           label: "Plugins: Pro List",

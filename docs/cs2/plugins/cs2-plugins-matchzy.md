@@ -5,7 +5,6 @@ title: "MatchZy"
 ---
 
 MatchZy is a plugin for CS2 for running and managing practice/pugs/scrims/matches with easy configuration!
-#### This plugin has been modified for FSHOST Pro!
 
 :::warning[!map & !mapname]
 **Please note that we have disabled some commands that should not be used during an ongoing match/scrim due to an error on VALVe's part that has NOT been fixed.**
@@ -14,8 +13,9 @@ We have deactivated !map and the !mapname that belongs to, for example, the map 
 Examples are locked:
 <br />!map
 <br />!dust2, !nuke, !mirage and so on...
-
-**When your running scrim/match is finished. Please wait 10 seconds, before you change the servermap.**
+\
+\
+**When your ongoing scrim/match is complete. Please wait 10 seconds before changing the server map.**
 :::
 
 ## What can MatchZy do?
@@ -45,7 +45,7 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 - `.tac` Starts a tactical timeout
 - `.coach <side>` Starts coaching the specified side. Example: `.coach t` to start coaching the terrorist side!
 
-### Practice Mode Commands
+### Practice Commands
 - `.spawn <number>` Spawns to the provided competitive spawn number of the same team
 - `.ctspawn <number>` Spawns to the provided competitive spawn number of CT (Alias: `.cts`)
 - `.tspawn <number>` Spawns to the provided competitive spawn number of T (Alias: `.ts`)
