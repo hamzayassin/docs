@@ -41,6 +41,11 @@ To restart the game after X amount of seconds.
 This command sets how much money players are given at the beginning of a half. Default is 800.
 <br /> `fake_rcon mp_startmoney Amount`
 
+The maximum amount of rounds that the server will play before restarting.
+<br /> `fake_rcon mp_maxrounds Amount`
+
+This command, if set to 1, will make you automatically bunny hop by holding down the space bar. Default is disabled (1).
+<br /> `fake_rcon sv_autobunnyhopping <0 / 1>`
 
 **Password** <br />You can change or remove the password to join your server by leaving the value empty.
 <br /> `fake_rcon sv_password ""`
@@ -50,6 +55,8 @@ This command sets how much money players are given at the beginning of a half. D
 
 **Cheats** <br />Do you want to enable sv_cheats?
 `fake_rcon sv_cheats 1`
+
+
 
 
 ## Load a different config/gamemode/map
