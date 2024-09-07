@@ -6,11 +6,6 @@ title: "WeaponPaints (Skins)"
 
 **Unfinished, unoptimized and not fully functional ugly WeaponPaints plugin**
 
-:::note
-**You should be aware that the plugin is very unstable and you will experience a packet loss on your server. And perhaps also high ping.**
-<br />
-:::
-
 ## Features
 - You can change paint, seed and wear on weapons, knives, gloves and agents. (**Web version**)
 - Data syncs on player connect.
