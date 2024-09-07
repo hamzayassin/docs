@@ -22,6 +22,6 @@ Below is an example of a Counter-Strike 2 server.
 | RCON Password | Use this password to login as admin and control your server. |
 | Join Password | Leave blank to make this server a public one. |
 | Game Mode | Change the default game mode. |
-| WeaponPaints (Skins) | Enable !skinson to your Pro Server **GSLT required!** |
+| WeaponPaints (Skins) | Skins is automatically loaded **GSLT required!** |
 | VAC (Valve-Anti-Cheat) | You can run your server with Valve Anti-Cheat. |
 | CSTV | Enable the ability to record demos the game. |
