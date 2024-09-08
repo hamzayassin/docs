@@ -15,6 +15,7 @@ You don't need to use `/` to execute an in-game command. You can already use `!`
 | InGame Commands | Description |
 | ------------ | ----------- |
 | /help | Printing available in-game commands as chat |
+| /rcon | Control RCON, from say/say_team |
 | /comp | Switching to Competitive Gamemode (MatchZy is auto-activated) |
 | /casual | Switching to Casual Gamemode |
 | /wingman | Switching to Wingman Gamemode | 

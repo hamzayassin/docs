@@ -26,14 +26,13 @@ List all maps.
 <br /> `rcon maps *`
 
 You can change the current map to any stock one.
-<br />**In-game console**: `fake_rcon changelevel mapnamehere` 
-<br />**Say/Say_team**: `!map mapnamehere` - Example: `!map dust2`
+<br />**In-Game: Say/Say_team** `!map mapnamehere` - Example: `!map dust2`
 
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro only</span> 
 
 You can also use maps from the [Steam Workshop](https://steamcommunity.com/workshop/browse/?appid=730). Enter the file ID (in URL after id=) after the command.
-<br /> `fake_rcon host_workshop_map fileID`
+<br /> `!rcon host_workshop_map fileID` - You need to be an admin for it to work on the Pro server.
 
 To restart the game after X amount of seconds.
 <br /> `fake_rcon mp_restartgame seconds`
