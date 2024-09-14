@@ -172,8 +172,7 @@ const sidebars = {
             "cs2/plugins/cs2-plugins-retakes",
             "cs2/plugins/cs2-plugins-skins",
             "cs2/plugins/cs2-plugins-simpleadmin",
-            "cs2/plugins/cs2-plugins-cstv2discord",
-            "cs2/plugins/cs2-plugins-deathmatch",
+            "cs2/plugins/cs2-plugins-gotvdiscord",
             "cs2/plugins/cs2-plugins-openprefireprac",
             "cs2/plugins/cs2-plugins-ingamecommands"
           ]

@@ -19,7 +19,7 @@ Below you will be able to see which plugins are available/unavailable on our fre
 | CustomAdmins (AddAdmin/DelAdmin)        |  &#x2718; No   | ✅ Yes |
 | In-Game Commands                        |  &#x2718; No   | ✅ Yes |
 | GunGame                                 |  &#x2718; No   | ✅ Yes |
-| MatchZy                                 |  &#x2718; No   | ✅ Yes |
+| MatchZy + PracticeMode                  |  &#x2718; No   | ✅ Yes |
 | OpenPrefirePrac                         |  &#x2718; No   | ✅ Yes |
 | CS2-Retakes                             |  &#x2718; No   | ✅ Yes |
 | WeaponPaints (Skins)                    |  &#x2718; No   | ✅ Yes (**GSLT required**) |
