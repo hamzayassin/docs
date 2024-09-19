@@ -2,8 +2,8 @@
 slug: becomeadmin
 id: cs2-becomeadmin
 title: "CS2: Become as admin"
-description: "How can I become as admin on my CS2 Pro server from FSHOST"
-sidebar_label: "Become as Admin"
+description: "How can I become an admin on my CS2 Pro server from FSHOST"
+sidebar_label: "Become an Admin"
 ---
 
 ## Introduction
@@ -13,17 +13,17 @@ How do I become an administrator on my own CS2 Pro server for the first time? We
 
 **There are 2 different ways you can do this.**
 :::note[You can use `Say` or `Say_team` from your in-game]
-0. First, find your RCONPass (Edit your server) and remember the RCONPass you created to your CS2 Server
+0. What RCONPassword did you create for your CS2 Pro Server? (You need to remember it)
 1. Join your FSHOST Pro Server
-2. **Say**/**Say_team**: `/login <rconpass>`
-3. **Say**/**Say_team**: `/addadmin <Steam Nickname/SteamID64>` to add yourself or your friend as admin.
+2. **Say**/**Say_team**: `/login YourServer's RCONPassword`
+3. **Say**/**Say_team**: `/addadmin YourSteamID64` to add yourself or your friend as admin.
 :::
 
 :::note[Open your console, from your in-game]
-0. First, find your RCONPass (Edit your server) and remember the RCONPass you created to your CS2 Server
+0. What RCONPassword did you create for your CS2 Pro Server? (You need to remember it)
 1. Join your FSHOST Pro Server
-2. `login <rconpass>` 
-3. `addadmin <Steam Nickname/SteamID64>` to add yourself or your friend as admin.
+2. `login YourServer's RCONPassword` 
+3. `addadmin YourSteamID64` to add yourself or your friend as admin.
 :::
 
 **Example, when you have added yourself as admin**
@@ -32,6 +32,6 @@ How do I become an administrator on my own CS2 Pro server for the first time? We
 
 | Chat Command | Description |
 | ------------ | ----------- |
-| `/addadmin [target]` | To add a new administrator to your CS2 server, you can enter their Steam Nickname/SteamID64 |
-| `/removeadmin [target]` | To remove an administrator from the server, you can enter their Steam Nickname/SteamID64 |
+| `/addadmin [target]` | To add a new administrator to your CS2 server, you can enter their Steam Nickname or SteamID64 |
+| `/removeadmin [target]` | To remove an administrator from the server, you can enter their Steam Nickname or SteamID64 |
 | `/listadmins` | Show a list of administrators on your CS2 server along with their SteamID64 and nickname. |
