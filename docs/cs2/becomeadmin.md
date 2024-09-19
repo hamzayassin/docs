@@ -1,13 +1,13 @@
 ---
 slug: becomeadmin
 id: cs2-becomeadmin
-title: "CS2: Become admin"
+title: "CS2: Become as admin"
 description: "How can I become as admin on my CS2 Pro server from FSHOST"
-sidebar_label: "Become Admin"
+sidebar_label: "Become as Admin"
 ---
 
 ## Introduction
-Using administrator privileges allows you to manage the server in-game. This gives you the ability to execute commands through the console.
+How do I become an administrator on my own CS2 Pro server for the first time? We've created some descriptions below on how to do it.
 
 <span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro only</span>
 
