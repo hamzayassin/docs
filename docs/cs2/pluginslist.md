@@ -16,7 +16,7 @@ Below you can see which plugins are available/unavailable on our free and pro se
 | CS2MapChange (!map de_mapname)          |      ✅ Yes    | ✅ Yes |
 | CS2Workmap (!wsmap fileID)              |  &#x2718; No   | ✅ Yes |
 | CS2Rcon (!rcon)                         |  &#x2718; No   | ✅ Yes |
-| CustomAdmins (AddAdmin/DelAdmin)        |  &#x2718; No   | ✅ Yes |
+| AddAdmin/RemoveAdmin (/login)           |  &#x2718; No   | ✅ Yes |
 | In-Game Commands                        |  &#x2718; No   | ✅ Yes |
 | MatchZy + PracticeMode                  |  &#x2718; No   | ✅ Yes |
 | OpenPrefirePrac                         |  &#x2718; No   | ✅ Yes |
