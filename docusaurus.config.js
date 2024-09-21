@@ -172,14 +172,14 @@ const config = {
           autoCollapseCategories: true,
         },
       },
-      announcementBar: {
+      /*announcementBar: {
         id: 'announcement-bar',
         content:
         'Welcome to our new Docs/FAQ page!',
         backgroundColor: '#3949AB',
         textColor: '#FFFFFF',
         isCloseable: false,
-      },
+      },*/
       colorMode: {
         defaultMode: 'dark',
           disableSwitch: true,
