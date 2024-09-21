@@ -32,10 +32,7 @@ You can change the current map to any stock one.
 <br />**In-Game: Say/Say_team** `!map mapnamehere` - Example: `!map dust2`
 
 
-<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Pro only</span> 
-
-You can also use maps from the [Steam Workshop](https://steamcommunity.com/workshop/browse/?appid=730). Enter the file ID (in URL after id=) after the command.
-<br /> `!rcon host_workshop_map fileID` - You need to be an admin for it to work on the Pro server.
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free server only</span> 
 
 To restart the game after X amount of seconds.
 <br /> `fake_rcon mp_restartgame seconds`
@@ -62,12 +59,12 @@ This command, if set to 1, will make you automatically bunny hop by holding down
 
 
 ## Load a different config/gamemode/map
-<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free only</span>
+<span style={{paddingLeft: '0.25rem', paddingRight: '0.25rem', paddingTop: '1px', paddingBottom: '1px', backgroundColor: '#4F46E5', color: '#ffffff', fontWeight: '600', borderRadius: '0.25rem'}}>Free server only</span>
 <br />Loads the predefined settings.
 
 | Chat Command | Description |
 | ------------ | ----------- |
-| !esl5on5     | This is a default esl5on5 file (None pause/unpause command!) |
+| !esl5on5     | This is a default esl5on5 file (No Ready system!) |
 | !scrim       | Scrim config with all rounds enabled (None pause/unpause command!) |
 | !dm          | Deathmatch Gamemode |
 | !retake      | Retake Gamemode |

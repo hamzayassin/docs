@@ -166,7 +166,7 @@ const sidebars = {
         "cs2/cs2-pluginslist",
         {
           type: "category",
-          label: "Plugins: Pro List",
+          label: "Plugins: Pro Commands",
           items: [
             "cs2/plugins/cs2-plugins-matchzy",
             "cs2/plugins/cs2-plugins-retakes",

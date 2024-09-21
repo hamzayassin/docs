@@ -2,7 +2,7 @@
 slug: becomeadmin
 id: cs2-becomeadmin
 title: "CS2: Become as admin"
-description: "How can I become an admin on my CS2 Pro server from FSHOST"
+description: "How can I become an admin on my CS2 Pro server"
 sidebar_label: "Become an Admin"
 ---
 
@@ -32,6 +32,6 @@ How do I become an administrator on my own CS2 Pro server for the first time? We
 
 | Chat Command | Description |
 | ------------ | ----------- |
-| `/addadmin [target]` | To add a new administrator to your CS2 server, you can enter their Steam Nickname or SteamID64 |
-| `/removeadmin [target]` | To remove an administrator from the server, you can enter their Steam Nickname or SteamID64 |
+| `/addadmin [target]` | To add a new administrator to your CS2 server, you can enter their SteamID64 |
+| `/removeadmin [target]` | To remove an administrator from the server, you can enter their SteamID64 |
 | `/listadmins` | Show a list of administrators on your CS2 server along with their SteamID64 and nickname. |

@@ -14,7 +14,7 @@ You don't need to use `/` to execute an in-game command. You can already use `!`
 
 | InGame Commands | Description |
 | ------------ | ----------- |
-| /help | Printing available in-game commands as chat |
+| /help | Printing available commands in chat |
 | /rcon | Control RCON, from say/say_team |
 | /comp | Switching to Competitive Gamemode (MatchZy is auto-activated) |
 | /casual | Switching to Casual Gamemode |
@@ -23,6 +23,8 @@ You don't need to use `/` to execute an in-game command. You can already use `!`
 | /dmvalve | VALVe Deathmatch (Aliases: `!valvedm`) |
 | /retake | Retake Mode (Aliases: `!retakes`) |
 | /map `mapname` | Switch to the map you like to play - Example: `/map nuke` |
+| /maps | Printing available maps commands in chat |
+| /wsmap `workshop ID` | Switch to the workshop map you like to play - Example: `/wsmap 3331819777` |
 | /retake | Switching to Retake |
 | /matchzy | Switching to MatchZy (Available if you're playing OpenPrefirePrac, Retake or Deathmatch) |
 | /prefireon | Switching to PrefireMode - [OpenPrefirePrac Commands](https://help.fshost.me/docs/cs2/plugins/openprefireprac) |
