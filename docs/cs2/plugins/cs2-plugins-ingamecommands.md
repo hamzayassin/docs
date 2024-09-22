@@ -1,15 +1,15 @@
 ---
 slug: ingamecommands
 id: cs2-plugins-ingamecommands
-title: "InGame-Commands"
+title: "In-Game Commands"
 ---
-
-This plugin is an ingame-commands that admins can use without the console.
-
-This works with say and say_team.
+**Here you have an overview of which commands can be used on your CS2 Pro server.**
 
 :::note
-You don't need to use `/` to execute an in-game command. You can already use `!`
+**Please note that the commands are only available if you have added yourself as admin.**
+<br />
+Have you not added yourself as an admin yet?
+[Go to this page](https://help.fshost.me/docs/cs2/becomeadmin), if you want to know how you can become an admin.
 :::
 
 | InGame Commands | Description |
@@ -24,7 +24,6 @@ You don't need to use `/` to execute an in-game command. You can already use `!`
 | /retake | Retake Mode (Aliases: `!retakes`) |
 | /map `mapname` | Switch to the map you like to play - Example: `/map nuke` |
 | /maps | Printing available maps commands in chat |
-| /wsmap `workshop ID` | Switch to the workshop map you like to play - Example: `/wsmap 3331819777` |
 | /retake | Switching to Retake |
 | /matchzy | Switching to MatchZy (Available if you're playing OpenPrefirePrac, Retake or Deathmatch) |
 | /prefireon | Switching to PrefireMode - [OpenPrefirePrac Commands](https://help.fshost.me/docs/cs2/plugins/openprefireprac) |
