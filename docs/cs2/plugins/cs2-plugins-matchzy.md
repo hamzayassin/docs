@@ -6,16 +6,15 @@ title: "MatchZy"
 
 MatchZy is a plugin for CS2 that runs and manages practice/pugs/scrims/matches with easy configuration!
 
-:::warning[!map & !mapname]
-**Please note that we have disabled some commands that should not be used during an ongoing match/scrim due to an error on VALVe's part that has NOT been fixed.**
+:::info
+**You should be very aware that FSHOST has disabled some commands that should not be used during an ongoing match or scrim due to the risk of a server crash.**
 <br />
-We have deactivated !map that belongs to, for example, the map and map names.
-Examples are locked:
-<br />!map
+We have had to disable the following commands listed below:
+<br />!map, !rcon
 <br />!dust2, !nuke, !mirage and so on...
 \
 \
-**When your ongoing scrim/match is complete. Please wait 5-10 seconds before changing the server map.**
+**When your ongoing scrim or match is complete. Please allow 5 seconds before you start changing the server map.**
 :::
 
 ## What can MatchZy do?
@@ -84,7 +83,7 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 ### Admin Commands
 - `.start` Force starts a match.
 - `.force` Force starts a match.
-- `.restart` Force restarts/resets a match. (**This will stop the match and stop the CSTV record**)
+- `.restart` Force restarts/resets a match or scrim. (**This will stop the match/scrim stop the CSTV record**)
 - `.forcepause` Pauses the match as an admin (Players cannot unpause the admin-paused game). (`.fp` for a shorter command)
 - `.forceunpause` Force unpauses the match. (`.fup` for shorter command)
 - `.restore <round>` Restores the backup of the provided round number.
