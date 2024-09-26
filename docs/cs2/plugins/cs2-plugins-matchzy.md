@@ -7,18 +7,17 @@ title: "MatchZy"
 MatchZy is a plugin for CS2 that runs and manages practice/pugs/scrims/matches with easy configuration!
 
 :::info
-**You should be very aware that FSHOST has disabled some commands that should not be used during an ongoing match or scrim due to the risk of a server crash.**
-<br />
-We have had to disable the following commands listed below:
-<br />!map, !rcon
-<br />!dust2, !nuke, !mirage and so on...
-\
-\
-**When your ongoing scrim or match is complete. Please allow 5 seconds before you start changing the server map.**
+**FSHOST has disabled some commands during matches/scrims due to the risk of your server crashing.**
+
+We have had to disable the following commands;
+* !map, !rcon
+* Map commands (e.g. !dust2, !nuke, !mirage).
+  
+_When your match/scrim is complete, you will need to wait at least 5 seconds before you can change the map._
 :::
 
 ## What can MatchZy do?
-MatchZy can solve a lot of match management requirements. It provides basic commands like `!ready`, `!unready`, `!pause`, `!unpause`, `!tac`, `!tech`, etc., matches stats, and much more!
+MatchZy can solve a lot of match management requirements. It provides basic commands like `!ready`, `!unready`, `!pause`, `!unpause`, `!tac`, `!tech`, match stats, and much more!
 
 **Feature highlights:**
 - Practice Mode many more commands!
