@@ -7,13 +7,12 @@ title: "MatchZy"
 MatchZy is a plugin for CS2 that runs and manages practice/pugs/scrims/matches with easy configuration!
 
 :::info
-**FSHOST has disabled some commands during matches/scrims due to the risk of your server crashing.**
-<br />
+**We've disabled some commands during matches/scrims due to the risk of your server crashing.**  
 <br />
 We have had to disable the following commands;
 * !map, !rcon
 * Map commands (e.g. !dust2, !nuke, !mirage).
-  
+
 _When your match/scrim is complete, you will need to wait at least 5 seconds before you can change the map._
 :::
 
