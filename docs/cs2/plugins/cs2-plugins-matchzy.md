@@ -7,7 +7,7 @@ title: "MatchZy"
 MatchZy is a plugin for CS2 that runs and manages practice/pugs/scrims/matches with easy configuration!
 
 :::info
-**We've disabled some commands during matches/scrims due to the risk of your server crashing.**  
+**We've disabled some commands during matches/scrims due to the risk of your server crashing.**
 <br />
 We have had to disable the following commands;
 * !map, !rcon
@@ -33,7 +33,7 @@ MatchZy can solve a lot of match management requirements. It provides basic comm
 ## Usage Commands
 Most of the commands can also be used using ! prefix instead of . (like !ready or /ready)
 | Chat Command | Description |
-| ----- | ---- |
+| ----- | ----- |
 | `.ready` | Marks the player ready |
 | `.unready` | Marks the player unready |
 | `.pause` | Pauses the match in freezetime (Normal pause). |
@@ -67,6 +67,8 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.loadnade <name>` | Loads a lineup (Alias: `.sn`) |
 | `.deletenade <name>` | Deletes a lineup from file (Alias: `.dn`) |
 | `.importnade <code>` | Upon saving a lineup a code will be printed to chat, alternatively those can be retrieved from the savednades.cfg (Alias: `.in`) |
+| `.deletenade <name>` | Deletes a lineup from the file (Alias: `.dn`) |
+| `.importnade <code>` | Upon saving a lineup a code will be printed to chat, alternatively, those can be retrieved from the savednades.cfg (Alias: `.in`) |
 | `.listnades <optional filter>` | Lists either all saved lineups ever or if given a filter only those that match the filter (Alias: `.lin`) |
 | `.break` | Breaks all the breakable entities (glass windows, wooden doors, vents, etc) |
 | `.rethrow` | Rethrows your last thrown grenade (Alias: `.rt`) |
@@ -75,6 +77,7 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 | `.back <number>` | Teleports you back to the provided position in your grenade history |
 | `.delay <delay_in_seconds>` | Sets a delay on your last grenade. This is only used when using .rethrow or .throwindex |
 | `.throwindex <index> <optional index> <optional index>` | Throws grenade of provided position(s) from your grenade thrown history.        Example: `.throwindex 1 2` will throw your 1st and 2nd grenade. `.throwindex 4 5 8 9` will throw your 4th, 5th, 8th and 9th grenade (If you've added delay in grenades, they'll be thrown with their specific delay). |
+| `.throwindex <index> <optional index> <optional index>` | Throws grenade of provided position(s) from your grenade thrown history. Example: `.throwindex 1 2` will throw your 1st and 2nd grenade. `.throwindex 4 5 8 9` will throw your 4th, 5th, 8th and 9th grenade (If you've added delay in grenades, they'll be thrown with their specific delay). |
 | `.lastindex` | Prints the index number of your last thrown grenade. |
 | `.rethrowsmoke` | Throws your last thrown smoke grenade. |
 | `.rethrownade` | Throws your last thrown HE grenade. |
@@ -85,12 +88,13 @@ Most of the commands can also be used using ! prefix instead of . (like !ready o
 
 ### Admin Commands
 | Chat Command | Description |
-| ----- | ---- |
+| ----- | ----- |
 | `.start` | Force starts a match. |
 | `.force` | Force starts a match. |
 | `.restart` | Force restarts/resets a match or scrim.  |
 | `.forcepause` | Pauses the match as an admin (Players cannot unpause the admin-paused game). (`.fp` for a shorter command) |
 | `.forceunpause` | Force unpauses the match. (`.fup` for shorter command) |
+| `.forceunpause` | Force unpauses the match. (`.fup` for a shorter command) |
 | `.restore <round>` | Restores the backup of the provided round number. |
 | `.rk <on/off>` | Toggles the knife round. If disabled, the match will directly go from the Warmup phase to the Live phase. (Can also use: `.kr <on/off>`, `.kniferound <on/off>`) |
 | `.match` | Activates match mode - **All 10 players need to ready up, knife round is default enabled on this mode** |
