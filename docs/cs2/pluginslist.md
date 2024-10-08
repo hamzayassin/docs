@@ -8,7 +8,7 @@ On this page, we have created a description of the list of plugins that are alre
 
 Below you can see which plugins are available/unavailable on our free and pro servers.
 
-| Plugins                                 | Free           | Pro (Admin required) |
+| Plugins                                 | Free           | Pro |
 |:-                                       |:-              |:-      |
 | [CS2-SimpleAdmin](https://help.fshost.me/docs/cs2/plugins/simpleadmin) |  &#x2718; No   | ✅ Yes |
 | [GOTV Demo to Discord](https://help.fshost.me/docs/cs2/plugins/matchzy)                    |  &#x2718; No   | ✅ Yes |
