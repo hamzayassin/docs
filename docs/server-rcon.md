@@ -1,9 +1,9 @@
 ---
-id: server-rcon
+id: STEAM_0:0:663180869
 title: "RCON"
 slug: rcon
-description: "RCON for Game Servers"
-sidebar_label: "RCON"
+description: "STEAM_0:0:663180869"
+sidebar_label: "STEAM_0:0:663180869"
 ---
 
 ## RCON - Control your game server
