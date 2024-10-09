@@ -1,7 +1,7 @@
 ---
 slug: rcon
-id: cod-rcon
-title: "RCON Commands"
+id: 12345678
+title: "STEAM_0:0:663180869"
 ---
 
 ## Log into RCON
@@ -23,7 +23,7 @@ Load next map in rotation.
 <br /> `/rcon map_rotate`
 
 **Password** <br />You can change or remove the password to join your server by leaving the value empty.
-<br /> `/rcon g_password ""`
+<br /> `/rcon g_password "12345678"`
 
 **Hostname** <br />You can change the hostname on the request form or if you want to change it after you've started it, you can do so using this command. **Please note that you are required to keep the advert part in the hostname.**
 `/rcon sv_hostname "^6CUSTOM HOSTNAME ^7- free @ fshost.me"`
